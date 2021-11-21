@@ -24,6 +24,7 @@
 
 ## Project Objectives
 
+
 This project aims to design and implement a **_software architecture_** for the control of a mobile robot _(Husky Robot)_ to Navigate and Map an environment _(simulated or real-life)_. The Mobile Robot in question is a robot called **Husky Robot**, the robot is a _non-holonomic robot_ equipped with a LaserScan sensor for detecting an obstacle. A simulation environment is provided as a **Unity Scene** which is contained by the _husky robot_ and an environment with obstacles to navigate through, there is also a goal point that the robot is intended to navigate to. The control of the mobile robot to perform the aforementioned task is going to be done through ROS packages, therefore the ROS packages and how they interact through interfaces to perform the goal is what this project is going to focus on (basically investing the software architecture design for the ROS packages).
 
 Enumerated goals the software architecture is intended to achieve with the robot (simulated and real-life)
